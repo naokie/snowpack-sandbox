@@ -1,3 +1,10 @@
-import { helloWorld } from './hello-world.js';
+import { html } from 'htm/preact';
+import register from 'preact-custom-element';
 
-helloWorld();
+const QueryGenerator = () => {
+  return html`
+    <a href="https://twitter.com/search?lang=ja&q=コロナ">Twitter</a>
+  `;
+};
+
+register(QueryGenerator, 'x-query-generator');

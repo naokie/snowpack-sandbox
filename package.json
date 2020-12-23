@@ -12,5 +12,10 @@
   "license": "ISC",
   "devDependencies": {
     "snowpack": "^2.18.2"
+  },
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.5.7",
+    "preact-custom-element": "^4.2.1"
   }
 }
